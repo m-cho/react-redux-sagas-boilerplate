@@ -1,0 +1,14 @@
+.Root-nav-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.Root-nav-link {
+  color: blue;
+  padding: 10px;
+}
+
+.Root-nav-link-active {
+  text-decoration: none;
+  color: red;
+}
