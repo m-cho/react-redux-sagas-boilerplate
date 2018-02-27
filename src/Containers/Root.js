@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, withRouter } from 'react-router-dom';
 import Routes from '../Navigation';
 import './styles/Root.css';
 
-export default class Root extends Component {
+class Root extends Component {
   render () {
     return (
       <div>
@@ -21,3 +21,5 @@ export default class Root extends Component {
     );
   }
 }
+
+export default withRouter(Root)
